@@ -554,15 +554,22 @@
             </ul>
           </div>
           <div class="form">
+            <b class="footer-heading">Subscribe</b>
             <form>
-              <b class="footer-heading">Subscribe</b>
-              <input
-                class="form-input"
-                type="text"
-                id="email"
-                autocomplete="off"
-              />
-              <label for="email" class="form-label"> Email</label>
+              <label>
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="btn">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#subscribe-icon"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
@@ -577,6 +584,19 @@
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form name="modal-form">
+          <!-- Name -->
+          <label class="form-field">
+            <span class="form-label"> Name</span>
+            <input class="form-input" type="text" name="user-name" />
+          </label>
+          <!-- Phone -->
+          <label class="form-field">
+            <span class="form-label"> Name</span>
+            <input class="form-input" type="text" name="user-name" />
+          </label>
+        </form>
       </div>
     </div>
 
