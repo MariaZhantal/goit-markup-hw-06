@@ -474,8 +474,9 @@ img {
 /* Email Form / Subscribe */
 
 .form {
-  display: flex;
+  display: inline-block;
   margin-left: 123px;
+  gap: 24px;
 }
 /* form {
   display: flex;
@@ -752,6 +753,11 @@ img {
 .form-input-icon:focus {
   outline: none;
   border-color: var(--iris);
+}
+
+.form-input-icon:hover,
+.form-input:focus ~ #input-icon {
+  fill: var(--iris);
 }
 
 .form-close-icon:hover,
