@@ -478,14 +478,13 @@ img {
   margin-left: 123px;
   gap: 24px;
 }
-/* form {
-  display: flex;
-  gap: 24px;
-  margin-top: 12px;
-  margin-left: 123px;
-} */
+.form-footer {
+margin-top: 16px;
+gap: 24px;
+}
 
 .input-email {
+  margin-right: 24px;
   position: relative;
   width: 264px;
   height: 40px;
