@@ -439,7 +439,7 @@ img {
   font-weight: 500;
 }
 .social-footer {
-  padding-top: 10px;
+  padding-top: 16px;
   display: flex;
   justify-content: flex-start;
   gap: 10px;
@@ -473,11 +473,6 @@ img {
 
 /* Email Form / Subscribe */
 
-.form {
-  display: inline-block;
-  margin-left: 123px;
-  gap: 24px;
-}
 .form-footer {
   margin-top: 16px;
   gap: 24px;
